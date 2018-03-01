@@ -1,24 +1,25 @@
 #include<stdio.h>
-void main()
+int main()
 {
 	char a[20];
 	int i,l,count=0;
-	printf("Enter the String:");
+	printf("Enter the String");
 	scanf("%s",a);
 	l=strlen(a);
 	for(i=0;i<l;i++)
 	{
-		if(isdigit(a[i]))
-		{
-			count++;
-		}
+	if(isdigit(a[i]))
+	{
+	count++;
+	}
 	}
 	if(count==l)
 	{
-		printf("Yes");
+	printf("Yes");
 	}
 	else
 	{
-		printf("No");
+	printf("No");
 	}
+	return 0;
 }
