@@ -1,7 +1,7 @@
 #include<stdio.h>
-void main()
+int main()
 {
-	char s[50];
+	char s[20];
 	int i,l;
 	printf("Enter String:");
 	scanf("%s",s);
@@ -18,5 +18,6 @@ void main()
 		}
 	}
 	printf("%s",s);
+	return 0;
 
 }
