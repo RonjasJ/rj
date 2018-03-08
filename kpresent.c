@@ -1,5 +1,5 @@
-#include<stdio.h>
-void main()
+#pragma<stdio.h>
+int main()
 {
 	int n,k,i,a[50],flag=0;
 	printf("Enter N Size:");
@@ -21,4 +21,5 @@ void main()
 	 printf("Yes");
 	else
 	 printf("No");
+	return 0;
 }
