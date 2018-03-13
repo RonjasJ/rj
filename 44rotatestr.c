@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include<string.h>
-void main()
+int main()
 {
 	int n,k,i,j;
 	char a[10],temp;
+	printf("enter the string");
 	scanf("%s",a);
 	n=strlen(a);
 	scanf("%d",&k);
+	printf("enter the value");
 	for(i=0;i<k;i++)
 	{
 	    temp=a[n-1];
@@ -17,5 +19,5 @@ void main()
 	    a[0]=temp;
 	   
 	} printf("%s",a);
-
+return 0;
 }
